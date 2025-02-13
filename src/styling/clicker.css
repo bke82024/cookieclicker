@@ -1,0 +1,27 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 2rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+img {
+  width: 7rem;
+}
+
+.reset-button {
+  margin-top: 20px;
+}
