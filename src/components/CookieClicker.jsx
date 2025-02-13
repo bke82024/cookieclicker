@@ -7,24 +7,18 @@ export default function CookieClicker() {
   function Add() {
     setCount(count + 1);
   }
-  function resetButton() {
+  function ResetButton() {
     setCount(0);
-  }
-  function subtract() {
-    setCount(count - 1);
   }
   return (
     <div className="container">
-      <button className="btn">
+      <button id="add-btn" onClick={Add}>
         <img src={cookie} alt="" className="cookie" />
-        Add
       </button>
       <p>{count}</p>
-      <button className="btn">
-        <img src={cookie} alt="" className="cookie" />
-        Subtract
+      <button id="reset-button" onClick={ResetButton}>
+        Reset
       </button>
-      <button className="reset-button">Reset</button>
     </div>
   );
 }

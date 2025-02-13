@@ -12,8 +12,14 @@
   text-align: center;
 }
 
-.btn {
-  border-radius: 2rem;
+#add-btn {
+  border-radius: 2rem 2rem 0 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+#reset-button {
+  border-radius: 0 0 2rem 2rem;
   cursor: pointer;
   text-align: center;
 }
